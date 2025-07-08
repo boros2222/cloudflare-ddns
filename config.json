@@ -1,0 +1,7 @@
+{
+  "api": "https://api.cloudflare.com/client/v4",
+  "token": "cloudflare-token",
+  "domains": [
+    "yourdomain.com"
+  ]
+}
