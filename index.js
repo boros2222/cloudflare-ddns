@@ -142,7 +142,7 @@ async function sendRequest(path, method, body = null) {
 }
 
 function saveJson(fileName, data) {
-    fs.writeFileSync(__dirname + '/' + fileName, JSON.stringify(data, null, 2));
+    fs.writeFileSync(__dirname + '/' + fileName, JSON.stringify(data, null, 2) + '\n');
 }
 
 function handleError(message) {
